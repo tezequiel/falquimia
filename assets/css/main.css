@@ -1054,6 +1054,14 @@ section,
   font-size: 16px;
 }
 
+.purecounter.percent::after {
+  content: "%";
+}
+
+.purecounter.plus::before {
+  content: "+";
+}
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
