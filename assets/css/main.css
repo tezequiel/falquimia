@@ -684,6 +684,7 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+  display: none;
 }
 
 /*--------------------------------------------------------------
@@ -2773,4 +2774,13 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+.bi-mercado-pago {
+  background-image: url("../img/mp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
 }
