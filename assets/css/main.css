@@ -916,7 +916,12 @@ section,
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+  .hero .container {
+    align-content: end;
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -1303,6 +1308,7 @@ section,
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
+  color: #00bcff;
 }
 
 .pricing .price {
